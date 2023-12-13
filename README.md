@@ -12,6 +12,13 @@ Have fun creating this boilterplate and setting  the License and stats for githu
 
 ##Re
 A very nice guide was reviewed for what I should expect. I'm particularrly confused by the emmc and sdcard. I think I need to visually verify.
-https://www.waveshare.com/wiki/CM4_Openwrt
+-
+
+### A review of birds eyeview over ubuntu https://www.waveshare.com/wiki/CM4_Openwrt onto a Raspberry Pi CM4 Seeed router.
+- https://www.waveshare.com/wiki/CM4_Openwrt
+###
+A review of some old nix code for not my situations; yet relivent. 
+- https://github.com/pinpox/nixos-raspberrypi-router
+
 
 
