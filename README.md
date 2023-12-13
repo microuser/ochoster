@@ -19,6 +19,8 @@ A very nice guide was reviewed for what I should expect. I'm particularrly confu
 ###A review of some old nix code for not my situations; yet relivent. 
 - https://github.com/pinpox/nixos-raspberrypi-router
 
+### some nix pi?
+- https://ipetkov.dev/blog/nixos-on-the-pibox/
 ###A review of an online discussion bears fruit.
 Read the following taken from site...
 ```txt
