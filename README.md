@@ -11,4 +11,7 @@ Apple Macintosh, M1 16GB, Sonoma 14.1.2
 Have fun creating this boilterplate and setting  the License and stats for github to track this project.
 
 ##Re
+A very nice guide was reviewed for what I should expect. I'm particularrly confused by the emmc and sdcard. I think I need to visually verify.
+https://www.waveshare.com/wiki/CM4_Openwrt
+
 
