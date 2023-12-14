@@ -39,7 +39,33 @@ Get nixos on a system with enough ram to be confortable. Make sure you have a sd
 
 I've contemplated that I would like to avoid using brew or nix on the Mac, because python and other nasties in my userspace. But rather use a enumerator, or emulator to create a fast compiler virtual machine. I would need network storage for this. Interesting. It seems choices for compilation box are 1) Macos with emulator of raspberry pi. I don't like macs and USB though, but networks are ok.  2) a linuxbox with dedicated nixos build. 3) some clustered vm that you start and writes. hard mode to bootstrap. But could be done with pxe booting.... 
 
+Some setbacks occur during the writing of this article. Two old computers have become unbootable recently. So a switch of hardware is in order. A changing development environment is a new consideration. 
+A seeed studio is found with running emmc boot.  A debian bullseye install was found to be fresh, and unused. Although the brave repository needed a removal from the /etc/apt/sources.d folders. I chose to upgrade my system. I 
 
+```sh 
+sudo apt-get dist-upgrade && sudo apt-get update && sudo apt-get upgrade
+``` 
+
+I did the standard 
+
+```sh 
+curl -L https://nixos.org/nix/install > ~/nix.sh
+```
+ to download the file. I then make it execuitable. 
+ ```sh
+ sudo chmod +x nix.sh
+```
+. I then run it in with the daemon parameter. 
+```sh
+sh sudo ~/nix.sh --daemon
+```
+
+I do the install, while enabling flakes so i can use
+```sh
+nix search
+```
+. I run the following command to enable flakes 
+```sh mkdir ~/.config -p && mkdir ~/.config/nix && ( echo "experimenal-features = nis-command flakes" > ~/.config/nix/nix.conf ) && echo features enabled```
 
 
 
