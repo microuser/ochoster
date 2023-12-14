@@ -73,7 +73,7 @@ mkdir ~/.config -p && mkdir ~/.config/nix && \
 
 ```
 
-I restart my system. Then attempt ```nix search nixpkgs tutor vi```to which the CPU gets cooking hot at 30% usage. The 4GB, or specificially 3794MB available might be a concern. A fan was placed on the heat spreader and fins. The system sees to he max memory and crash, until the system stops responding. It looks fully locked up. Perhaps I need to specify a swap. Lets restart and attempt that again. For reference, I suggest that 4GB of ram is not enough. I will adjust my own approach again.
+I restart my system. Then attempt ```nix search nixpkgs tutor vi```to which the CPU gets cooking hot at 30% usage. The 4GB, or specificially 3794MB available might be a concern. A fan was placed on the heat spreader and fins. The system it at max memory and crashes, until the system stops responding. It looks fully locked up. Perhaps I need to specify a swap. Lets restart and attempt that again. For reference, I suggest that 4GB of ram is not enough. I will adjust my own approach again.
 
 ```hint
 today i learned that 4GB is not enough ram for nix flakes.
