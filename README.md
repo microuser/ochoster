@@ -63,11 +63,7 @@ curl -L https://nixos.org/nix/install > ~/nix.sh
 sh sudo ~/nix.sh --daemon
 ```
 
-I do the install, while enabling flakes so i can use
-```sh
-nix search
-```
-. I run the following command to enable flakes 
+I do the install, while enabling flakes ```nix search``` .  I run the following command to enable flakes 
 ```sh 
 mkdir ~/.config -p && mkdir ~/.config/nix && \
    ( echo "experimenal-features = nix-command flakes" > ~/.config/nix/nix.conf ) \
