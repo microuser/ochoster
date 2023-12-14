@@ -4,6 +4,7 @@ Ocho is spanish for 8. And it is a silent computer like a toaster. Thus; Ocho-To
 
 #Equipment
 Apple Macintosh, M1 16GB, Sonoma 14.1.2
+Raspberry Pi Seeed Studio CM4 
 
 #Procedure
 
@@ -65,7 +66,10 @@ I do the install, while enabling flakes so i can use
 nix search
 ```
 . I run the following command to enable flakes 
-```sh mkdir ~/.config -p && mkdir ~/.config/nix && ( echo "experimenal-features = nis-command flakes" > ~/.config/nix/nix.conf ) && echo features enabled```
+```sh 
+mkdir ~/.config -p && mkdir ~/.config/nix && ( echo "experimenal-features = nis-command flakes" > ~/.config/nix/nix.conf ) && echo success || echo failed
+
+```
 
 
 
