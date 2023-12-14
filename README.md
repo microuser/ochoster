@@ -70,7 +70,7 @@ nix search
 . I run the following command to enable flakes 
 ```sh 
 mkdir ~/.config -p && mkdir ~/.config/nix && \
-   ( echo "experimenal-features = nis-command flakes" > ~/.config/nix/nix.conf ) \
+   ( echo "experimenal-features = nix-command flakes" > ~/.config/nix/nix.conf ) \
    && echo success || echo failed
 
 ```
